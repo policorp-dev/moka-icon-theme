@@ -1,0 +1,176 @@
+moka-icon-theme (5.5.0-Policorp-7) stable; urgency=medium
+
+  * Adicionado icones para thunderbolt
+  * Adiciondo papirus como heranca
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Tue, 17 Oct 2023 16:08:56 -0300
+
+moka-icon-theme (5.5.0-Policorp-6) stable; urgency=medium
+
+  * Add icone document-edit
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Wed, 13 Sep 2023 09:59:12 -0400
+
+moka-icon-theme (5.5.0-Policorp-5) stable; urgency=medium
+
+  * Alterado icone de pastas
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 11 May 2023 15:38:17 -0300
+
+moka-icon-theme (5.5.0-Policorp-4) stable; urgency=medium
+
+  * Alterado icone da lixeira
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Mon, 17 Apr 2023 13:26:18 -0300
+
+moka-icon-theme (5.5.0-Policorp-3) stable; urgency=medium
+
+  * Atualizado versao para bookworm
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 16 Mar 2023 14:32:20 -0400
+
+moka-icon-theme (5.4.0.3-Polilinux-2) stable; urgency=medium
+
+  * Alteracao do icone da loja issue #7
+
+ -- Lucas Salles <lucas.salles@policorp.com.br>  Wed, 23 Nov 2022 19:03:11 +0000
+
+moka-icon-theme (5.4.0.3-Polilinux-1) stable; urgency=medium
+
+  * Changed cheese icon
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Fri, 20 Aug 2021 07:36:38 -0400
+
+moka-icon-theme (5.4.0.3-1) unstable; urgency=medium
+
+  * New release
+    - Add xfce 4.16 support
+      https://github.com/snwh/moka-icon-theme/pull/434
+    - sync symlinks
+      https://github.com/snwh/moka-icon-theme/pull/433
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 07 Feb 2021 18:09:19 +0000
+
+moka-icon-theme (5.4.0.2-1) unstable; urgency=medium
+
+  * New release
+    - Resolve rendering of icons with inkscape (version >= 1.0)
+      https://github.com/snwh/moka-icon-theme/pull/424
+    - Add Google Chat and Zoom icons
+      https://github.com/snwh/moka-icon-theme/pull/421
+    - Add symlinks for catfish
+      https://github.com/snwh/moka-icon-theme/pull/426
+    - Add symlinks for drawing
+      https://github.com/snwh/moka-icon-theme/pull/429
+    - Add symlinks for Remmina
+      https://github.com/snwh/moka-icon-theme/pull/428
+    - Add symlinks for gThumb
+      https://github.com/snwh/moka-icon-theme/pull/427
+  * Packaging Changes
+    - control: Bump StandardsVersion
+    - control: Bump debhelper/compat version
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 15 Dec 2020 21:28:24 +0000
+
+moka-icon-theme (5.4.0.1-1) unstable; urgency=medium
+
+  * New release
+    - Soft-fork of upstream to expedite releases incorporating
+      upstream pull-requests.
+    - Add missing symlinks for gnome-notes, baobab, gnome-screenshot,
+      gnome-fontviewer (LP: #1821004)
+      Add missing symlinks for d-feet and system-monitor
+      https://github.com/snwh/moka-icon-theme/pull/397
+    - Add missing icon for livepatch
+      https://github.com/snwh/moka-icon-theme/pull/401
+    - Add missing icon for system-users
+      https://github.com/snwh/moka-icon-theme/pull/397
+    - Add symlinks for mainly GNOME based apps
+      https://github.com/snwh/moka-icon-theme/pull/400
+    - Add symlink for GNOME MPV
+      https://github.com/snwh/moka-icon-theme/pull/398
+    - Add symlnk for Rhythmbox
+      https://github.com/snwh/moka-icon-theme/pull/415
+    - Add symlink for Celluloid
+      https://github.com/snwh/moka-icon-theme/pull/414
+    - Add GNOME 3.32 icons
+      https://github.com/snwh/moka-icon-theme/pull/410
+    - fix mismatched sized unity-3d binaries resolving lintian issues
+  * from upstream 5.4.0 release
+    - Atom beta, xreader symlinks, tor browser, Unity 3D
+      Slack, GIMP, Spotify, GNOME Games, retroarch,
+      fprint_demo, smartgit
+  * Packaging Changes:
+    - copyright - year changes, full CC and debian changed to GPL-2+
+    - control - bump Standards-Version - rules updated to be more verbose
+    - control - debhelper changed to v12
+    - control - add B-D meson for new source build system
+    - remove compat
+    - copyright - update year
+    - upstream/metaupdate format change and new repo details
+    - rules - remove executable bit from index.theme and tox
+      to resolve lintian warnings
+    - Update watch for new repo release
+    - Add packager signing signature
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 02 Feb 2020 18:09:52 +0000
+
+moka-icon-theme (5.3.6-1) unstable; urgency=medium
+
+  * new upstream release
+    - variety of new icons: elasticsearch, wxhexeditor,
+      wxformbuilder, gtkhash, internet archive, zenmap,
+      ubuntu-budgie, laptop-mode-tools, atlassian services,
+      TI code composer studio
+    - symlinks for apps that are comparable i.e. tilix > terminix,
+      nmap > zenmap, budgie-remix > ubuntu-budgie,
+      regedit > wine, wine-regedit > wine
+  * Packaging Changes:
+    - drop patch fix-overly-large-icons since this is now incorporated
+      with the release
+    - change debhelper and compat to v10
+    - update VCS fields from budgie-remix to UbuntuBudgie
+    - update copyright field year from 2016 to 2016-2017
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Tue, 27 Jun 2017 19:10:21 +0100
+
+moka-icon-theme (5.3.5-2) unstable; urgency=medium
+
+  * bug-fix release
+    - add patch fix-overly-large-icons to resolve some applications
+      scaling icons incorrectly
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 13 Mar 2017 20:47:46 +0000
+
+moka-icon-theme (5.3.5-1) unstable; urgency=medium
+
+  * new upstream release
+    - fix GTK+3.22 and GTK+3.20 based apps
+    - variety of new icons
+  * Packaging Changes:
+    - remove patches since these are now incorporated with the release
+    - remove source license files since covered by debian/copyright
+    - revise upstream/metadata to reflect authors new repository location
+    - corrected debian/copyright to reflect the dual license the author
+      has released the icons and source package under
+    - updated control description to better describe the relationship
+      between Moka and Faba
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 03 Oct 2016 20:23:25 +0100
+
+moka-icon-theme (5.3.2-2) unstable; urgency=medium
+
+  * cherry-pick upstream patches
+    - fix GTK+3.22 and GTK+3.20 based apps not displaying correctly due
+      to upstream changing their .desktop exec=icon names
+    - fix ubuntu-software, ImageMagik and Guake icon display
+  * Packaging Changes:
+    - update maintainer email address
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sun, 25 Sep 2016 10:48:43 +0100
+
+moka-icon-theme (5.3.2-1) unstable; urgency=low
+
+  * Initial Release (Closes: #824964)
+
+ -- David Mohammed <foss.freedom@gmail.com>  Sat, 21 May 2016 15:53:24 +0100

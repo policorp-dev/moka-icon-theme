@@ -1,0 +1,22 @@
+Source: moka-icon-theme
+Section: misc
+Priority: optional
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 13),
+ debhelper-compat (= 13),
+ meson
+Standards-Version: 4.5.1
+Vcs-Browser: https://github.com/UbuntuBudgie/moka-icon-theme/tree/debian
+Vcs-Git: https://github.com/UbuntuBudgie/moka-icon-theme -b debian
+Homepage: https://snwh.org/moka
+
+
+Package: moka-icon-theme
+Architecture: all
+Depends: faba-icon-theme, papirus-icon-theme
+		 ${misc:Depends}
+Description: Tango-esque desktop icon set called Moka
+ Moka is a stylized Tango-esque Linux desktop icon set. They are
+ designed to be a clear, simple and consistent.
+ Moka is designed to work with the Faba icon set - together
+ they provide both applications and panel based icons.
